@@ -1,16 +1,18 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Prudhvi Chowdary
-  Date: 20-02-2024
-  Time: 10:27
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Enter Weight and Height</title>
+</head>
+<body>
+<form action="/javax-servlets/bmi" method="post">
+
+    <label for="weight">Weight (lbs):</label>
+    <input type="number" id="weight" name="weight" required><br>
+    <label for="height">Height (inches):</label>
+    <input type="number" id="height" name="height" required><br>
+    <button type="submit">Calculate BMI</button>
+</form>
+</body>
 </html>

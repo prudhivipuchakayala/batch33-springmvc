@@ -42,8 +42,8 @@
   <properties>
     <org.apache.httpcomponents.version>4.5.3</org.apache.httpcomponents.version>
     <gson.version>2.10.1</gson.version>
-      <maven.compiler.source>1.8</maven.compiler.source>
-      <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <build>

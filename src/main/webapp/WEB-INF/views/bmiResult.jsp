@@ -1,16 +1,14 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Prudhvi Chowdary
-  Date: 20-02-2024
-  Time: 10:27
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Result</title>
+</head>
+<body>
+
+<p>Your BMI is: ${bmi}</p>
+</body>
 </html>
